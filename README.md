@@ -77,7 +77,6 @@ mitag4taxa -i ./testdata/ -t 18S -th 10
 After installation, you can verify that the software and all its dependencies are working correctly by running the built-in test dataset:
 
 ```bash
-# Automatically locate the test data in the installation directory and run 16S analysis
 mitag4taxa -i $(dirname $(which mitag4taxa))/testdata -t 16S -th 10
 ```
 ## Development
@@ -87,6 +86,7 @@ Development tool: Pycharm and VScode
 ## Contact
 
 If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.cn
+
 
 
 
