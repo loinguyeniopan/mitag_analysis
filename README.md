@@ -52,11 +52,13 @@ Crucial: Before running the software, you must organize your input data exactly 
 Execute the following command in your terminal:
 
 For 16S rRNA analysis
+```text
 mitag4taxa -i ./testdata/ -t 16S -th 10
-
+```
 For 18S rRNA analysis
+```text
 mitag4taxa -i ./testdata/ -t 18S -th 10
-
+```
 3. After processing, a series of folders will be automatically generated within your input parent directory to organize the results:
 ```text
 ./testdata/
@@ -75,6 +77,7 @@ Development tool: Pycharm and VScode
 ## Contact
 
 If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.cn
+
 
 
 
