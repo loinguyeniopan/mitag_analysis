@@ -60,17 +60,17 @@ mitag4taxa -i ./testdata/ -t 18S -th 10
 
 ./testdata/
 
-├── illu/             # Original input data
+    └── illu/             # Original input data
 
-├── seqkit/           # FASTA files converted from FASTQ
+    └── seqkit/           # FASTA files converted from FASTQ
 
-├── rRNA_prediction/  # Full rRNA sequences predicted by HMMER
+    └── rRNA_prediction/  # Full rRNA sequences predicted by HMMER
 
-├── 16S/ (or 18S/)    # Extracted 16S or 18S rRNA sequences
+    └── 16S/ (or 18S/)    # Extracted 16S or 18S rRNA sequences
 
-├── v4/ (or v9/)      # Fasta sequences of the specific variable region (V4/V9)
+    └── v4/ (or v9/)      # Fasta sequences of the specific variable region (V4/V9)
 
-└── v4seq/ (or v9seq/)# Fastq sequences of the specific variable region (V4/V9)
+    └── v4seq/ (or v9seq/)# Fastq sequences of the specific variable region (V4/V9)
 
 
 Development environment: Linux  
@@ -79,6 +79,7 @@ Development tool: Pycharm and VScode
 ## Contact
 
 If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.cn
+
 
 
 
