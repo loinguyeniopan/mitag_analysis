@@ -12,10 +12,14 @@ biopython  | 1.84 |
 pandas  | 2.2.3 |
 
 ## Installation
+```text
 conda install heyinghui0722::mitag4taxa
+```
 
 ## run
+```text
 mitag4taxa -i ./ -t 16S/18S -th 10
+```
 
 The Mitag4taxa software is a tool designed for the extraction and analysis of 16S or 18S rDNA sequences from Illumina sequencing data. 
 
@@ -77,6 +81,7 @@ Development tool: Pycharm and VScode
 ## Contact
 
 If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.cn
+
 
 
 
