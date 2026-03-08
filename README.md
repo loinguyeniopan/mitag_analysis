@@ -74,13 +74,14 @@ mitag4taxa -i ./testdata/ -t 18S -th 10
     └── v4seq/ (or v9seq/)# Fastq sequences of the specific variable region (V4/V9)
 ```
 
-
+## Development
 Development environment: Linux  
 Development tool: Pycharm and VScode
 
 ## Contact
 
 If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.cn
+
 
 
 
