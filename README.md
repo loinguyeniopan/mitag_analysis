@@ -13,7 +13,7 @@ pandas  | 2.2.3 |
 
 ## Installation
 ```text
-conda install heyinghui0722::mitag4taxa
+conda install -c heyinghui0722 -c bioconda -c conda-forge mitag4taxa
 ```
 
 ## run
@@ -81,6 +81,7 @@ Development tool: Pycharm and VScode
 ## Contact
 
 If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.cn
+
 
 
 
