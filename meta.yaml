@@ -1,0 +1,42 @@
+package:
+  name: mitag4taxa 
+  version: "0.1.0"
+  package:
+
+source:
+  path: /mnt/data4/project/HYHsoftware240130/conda_upload/Mitag4taxa/
+
+build: 
+  number: 0 
+  entry_points: 
+    - Mitag4taxa = mitag4taxa:main 
+
+
+requirements: 
+  build: 
+    - python >=3.10
+    - setuptools
+  run: 
+    - python >=3.10
+    - perl >=5
+    - seqkit >=2.9.0
+    - hmmer >=3.4 
+    - biopython >=1.84
+    - pandas >=2.2.3
+
+test: 
+  source_files: 
+    - mitag_analysis-command/*
+    - mitag_analysis-scripts/*
+    - installation/*
+    - testdata/*
+    - mitag4taxa.py
+  commands: 
+    - Mitag4taxa -i ./ -t 16S -th 10
+    - Mitag4taxa -i ./ -t 18S -th 10
+
+
+about:
+  home: "https://github.com/heyinghui22/Mitag4taxa"
+  summary: "A package for getting 16S rRNA (v4 zone) and 18S rRNA (v9 zone) seqence for analysising from metagenome and metatranscriptome."
+  license: "MIT"
